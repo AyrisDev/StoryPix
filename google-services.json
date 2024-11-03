@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "430675657504",
+    "project_id": "storypix-28de7",
+    "storage_bucket": "storypix-28de7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430675657504:android:09ac1b4f00c2713e748d45",
+        "android_client_info": {
+          "package_name": "com.ayristech.storypix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430675657504-ebfq43fbu59ihkl8o44tb6grbi5qtjl7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayristech.storypix",
+            "certificate_hash": "4fc17e193fb5f2c6525d103c90e2f1f8451d4d8d"
+          }
+        },
+        {
+          "client_id": "430675657504-4l3ohi0dbjsdoh07ube8j1gqjr8d54ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrfxr01VvfgfgFDNABvF6PQolFFX76Ilk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430675657504-4l3ohi0dbjsdoh07ube8j1gqjr8d54ak.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "430675657504-p8jbjn7unkmrmfabjuphqk5v5knschpv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ayristech.storypix"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

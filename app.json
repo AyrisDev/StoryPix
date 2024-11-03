@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "icon": "./src/assets/icon.png",
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.ayristech.storypix",
+      "permissions": [
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "ACCESS_MEDIA_LOCATION",
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "ios": {
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.ayristech.storypix",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to save images."
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+          "savePhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+          "isAccessMediaLocationEnabled": true
+        }
+      ],
+      "expo-build-properties",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/app",
+      "@react-native-google-signin/google-signin",
+      ["expo-font"]
+    ],
+    "name": "storypix",
+    "slug": "storypix",
+    "extra": {
+      "eas": {
+        "projectId": "9013b566-d3cb-4c5a-8805-45a1688ee2d4"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>430675657504-p8jbjn7unkmrmfabjuphqk5v5knschpv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.430675657504-p8jbjn7unkmrmfabjuphqk5v5knschpv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>430675657504-ebfq43fbu59ihkl8o44tb6grbi5qtjl7.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDcEPQtCua8iBsfy4-tuttH6FbYKzywanw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>430675657504</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ayristech.storypix</string>
+	<key>PROJECT_ID</key>
+	<string>storypix-28de7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>storypix-28de7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:430675657504:ios:bbe0d95db919e38c748d45</string>
+</dict>
+</plist>
